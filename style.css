@@ -1,0 +1,77 @@
+body {
+  font-family: "Young Serif", serif;
+}
+
+* {
+  padding: 0;
+  margin: 10px;
+}
+
+.section-one {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.section-one__heading {
+  padding-bottom: 3px;
+}
+.section-one__desc {
+  padding: 3px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  vertical-align: top;
+  border: solid black 2px;
+  border-radius: 1px;
+}
+
+.section-two__image,
+.section-three__image,
+.section-four__image,
+.section-five__image {
+  height: 200px;
+  width: 100px;
+}
+
+.section-two__button,
+.section-three__button,
+.section-four__button,
+.section-five__button {
+  background-color: black;
+  color: white;
+  border: 0;
+}
+
+.container {
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.section-six {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+
+table {
+  display: inline-block;
+  text-align: center;
+  margin-left: 400px;
+}
+.t-button {
+  background-color: yellow;
+  color: black;
+  border: 0;
+  text-align: center;
+  width: 400px;
+  height: 20px;
+}
